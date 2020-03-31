@@ -13,6 +13,7 @@
 		16421C0A24245E3300CE2CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16421C0824245E3300CE2CCE /* Main.storyboard */; };
 		16421C0C24245E3400CE2CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16421C0B24245E3400CE2CCE /* Assets.xcassets */; };
 		16421C0F24245E3400CE2CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16421C0D24245E3400CE2CCE /* LaunchScreen.storyboard */; };
+		16421C1824245E5700CE2CCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16421C1724245E5700CE2CCE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		16421C0B24245E3400CE2CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16421C0E24245E3400CE2CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16421C1024245E3400CE2CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16421C1724245E5700CE2CCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16421C1824245E5700CE2CCE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				16421C0124245E3300CE2CCE /* AVSpeechSynthesizerDemo-Swift */,
 				16421C0024245E3300CE2CCE /* Products */,
+				16421C1624245E5600CE2CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				16421C1024245E3400CE2CCE /* Info.plist */,
 			);
 			path = "AVSpeechSynthesizerDemo-Swift";
+			sourceTree = "<group>";
+		};
+		16421C1624245E5600CE2CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16421C1724245E5700CE2CCE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
